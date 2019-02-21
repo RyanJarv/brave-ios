@@ -17,6 +17,8 @@ import Deferred
 import Data
 import BraveShared
 import SwiftKeychainWrapper
+import WatchConnectivity
+
 
 private let log = Logger.browserLogger
 
@@ -41,6 +43,7 @@ private struct BrowserViewControllerUX {
 }
 
 class BrowserViewController: UIViewController {
+    
     var favoritesViewController: FavoritesViewController?
     var webViewContainer: UIView!
     var urlBar: URLBarView!
@@ -314,8 +317,12 @@ class BrowserViewController: UIViewController {
         scrollController.showToolbars(animated: false)
     }
 
+    
+ 
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         NotificationCenter.default.addObserver(self, selector: #selector(appWillResignActiveNotification), name: .UIApplicationWillResignActive, object: nil)
         NotificationCenter.default.addObserver(self, selector: #selector(appDidBecomeActiveNotification), name: .UIApplicationDidBecomeActive, object: nil)
         NotificationCenter.default.addObserver(self, selector: #selector(appDidEnterBackgroundNotification), name: .UIApplicationDidEnterBackground, object: nil)
@@ -1627,8 +1634,13 @@ extension BrowserViewController: URLBarDelegate {
         dismissVisibleMenus()
     }
     
+
+    
     func urlBarDidTapBraveShieldsButton(_ urlBar: URLBarView) {
         // BRAVE TODO: Use actual instance
+        
+
+        
         guard let selectedTab = tabManager.selectedTab else { return }
         let shields = ShieldsViewController(tab: selectedTab)
         shields.shieldsSettingsChanged = { [unowned self] _ in

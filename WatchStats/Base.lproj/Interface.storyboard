@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="14460.31" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+    <device id="watch38" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="watchOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="14460.16"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="WatchStats" customModuleProvider="target">
+                    <items>
+                        <group width="1" alignment="left" verticalAlignment="center" spacing="3" id="Stv-jw-Gii">
+                            <items>
+                                <label alignment="left" text="Blocked" id="SpV-hH-WZj">
+                                    <color key="textColor" red="0.60311275720596313" green="0.62061029672622681" blue="0.63222521543502808" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <fontDescription key="font" style="UICTFontTextStyleTitle3"/>
+                                </label>
+                                <label alignment="right" text="---" id="dpH-iY-XWQ">
+                                    <color key="textColor" red="0.85882352941176465" green="0.33333333333333331" blue="0.19215686274509802" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <fontDescription key="font" style="UICTFontTextStyleTitle3"/>
+                                </label>
+                            </items>
+                            <edgeInsets key="margins" left="0.0" right="0.0" top="10" bottom="10"/>
+                        </group>
+                        <group width="1" alignment="left" verticalAlignment="center" id="qZy-ac-3sb">
+                            <items>
+                                <label alignment="left" text="HTTPS" id="ViT-lR-ok3">
+                                    <color key="textColor" red="0.60311275720000002" green="0.62061029670000001" blue="0.63222521539999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <fontDescription key="font" style="UICTFontTextStyleTitle3"/>
+                                </label>
+                                <label alignment="right" text="---" id="heC-FZ-Zrb">
+                                    <color key="textColor" red="0.36502087116241455" green="0.77013677358627319" blue="0.42156839370727539" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <fontDescription key="font" style="UICTFontTextStyleTitle3"/>
+                                </label>
+                            </items>
+                            <edgeInsets key="margins" left="0.0" right="0.0" top="10" bottom="10"/>
+                        </group>
+                        <group width="1" alignment="left" verticalAlignment="center" id="UCZ-GE-LgX">
+                            <items>
+                                <label alignment="left" text="Time" id="Ky0-Rm-SJ1">
+                                    <color key="textColor" red="0.60311275720000002" green="0.62061029670000001" blue="0.63222521539999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <fontDescription key="font" style="UICTFontTextStyleTitle3"/>
+                                </label>
+                                <label height="23" alignment="right" text="---" id="oQb-jC-yED">
+                                    <color key="textColor" cocoaTouchSystemColor="lightTextColor"/>
+                                    <fontDescription key="font" style="UICTFontTextStyleTitle3"/>
+                                </label>
+                            </items>
+                            <edgeInsets key="margins" left="0.0" right="0.0" top="10" bottom="10"/>
+                        </group>
+                    </items>
+                    <connections>
+                        <outlet property="adblock" destination="dpH-iY-XWQ" id="6l6-3c-GbH"/>
+                        <outlet property="https" destination="heC-FZ-Zrb" id="Jxp-0k-Z3J"/>
+                        <outlet property="scripts" destination="oQb-jC-yED" id="Qyb-te-9PJ"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="220" y="345"/>
+        </scene>
+    </scenes>
+</document>
