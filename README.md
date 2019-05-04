@@ -30,6 +30,11 @@ Building the code
 -----------------
 
 1. Install the latest [Xcode developer tools](https://developer.apple.com/xcode/downloads/) from Apple. (Xcode 10 and up required)
+1. Install node@10:
+    ```shell
+    brew install node@10
+    echo 'export PATH="/usr/local/opt/node@10/bin:$PATH"' >  ~/.bash_profile
+    ```
 1. Install Carthage:
     ```shell
     brew update
