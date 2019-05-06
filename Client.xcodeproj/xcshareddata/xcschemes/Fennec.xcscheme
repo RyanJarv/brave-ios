@@ -14,6 +14,20 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
+               BlueprintIdentifier = "C7BC437A221E839E00571211"
+               BuildableName = "WatchStats.app"
+               BlueprintName = "WatchStats"
+               ReferencedContainer = "container:Client.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
                BlueprintIdentifier = "F84B21BD1A090F8100AAB793"
                BuildableName = "Client.app"
                BlueprintName = "Client"

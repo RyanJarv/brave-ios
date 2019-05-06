@@ -580,6 +580,24 @@
 		C6B81B8A212D84BD00996084 /* ImageCacheType.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B81B89212D84BD00996084 /* ImageCacheType.swift */; };
 		C6B81B8C212D989200996084 /* ImageCacheOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B81B8B212D989200996084 /* ImageCacheOptions.swift */; };
 		C6D267522136800100465DFA /* PrivateBrowsingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D267512136800100465DFA /* PrivateBrowsingManager.swift */; };
+		C7155D59227EA62B001929F3 /* WatchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7155D58227EA62B001929F3 /* WatchKit.framework */; };
+		C7155D5B227EA641001929F3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7155D5A227EA640001929F3 /* UIKit.framework */; };
+		C7155D5D227EA64C001929F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7155D5C227EA64C001929F3 /* Foundation.framework */; };
+		C7155D5F227EA656001929F3 /* WatchConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7155D5E227EA656001929F3 /* WatchConnectivity.framework */; };
+		C7155D61227EA665001929F3 /* ClockKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7155D60227EA665001929F3 /* ClockKit.framework */; };
+		C721BF2B2280EA9D004D7E5F /* WatchStatsExt.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C7BC4387221E83A000571211 /* WatchStatsExt.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C72C2183221EAE1000AF9F9F /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E650757D1E37F7AB006961AC /* StringExtensions.swift */; };
+		C72C2189221EB0BE00AF9F9F /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35210E01CB2F16600FC5DCB /* Strings.swift */; };
+		C72C218C221EB26400AF9F9F /* BundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59B6902821B684A700E9388E /* BundleExtension.swift */; };
+		C7BC437F221E839F00571211 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7BC437D221E839F00571211 /* Interface.storyboard */; };
+		C7BC4381221E83A000571211 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7BC4380221E83A000571211 /* Assets.xcassets */; };
+		C7BC438D221E83A000571211 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BC438C221E83A000571211 /* InterfaceController.swift */; };
+		C7BC438F221E83A000571211 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BC438E221E83A000571211 /* ExtensionDelegate.swift */; };
+		C7BC4391221E83A000571211 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BC4390221E83A000571211 /* NotificationController.swift */; };
+		C7BC4393221E83A000571211 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BC4392221E83A000571211 /* ComplicationController.swift */; };
+		C7BC4395221E83A100571211 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7BC4394221E83A100571211 /* Assets.xcassets */; };
+		C7BC439A221E83A100571211 /* WatchStats.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = C7BC437B221E839E00571211 /* WatchStats.app */; };
+		C7BC43A8221E850700571211 /* WatchStatsExt.appex in Resources */ = {isa = PBXBuildFile; fileRef = C7BC4387221E83A000571211 /* WatchStatsExt.appex */; };
 		C817B34D1FC609500086018E /* UIScrollViewSwizzled.swift in Sources */ = {isa = PBXBuildFile; fileRef = C817B34C1FC609500086018E /* UIScrollViewSwizzled.swift */; };
 		C8611C8E1F71904C00C3DE7D /* DiskImageStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BF8CBC1B7472FA0007AFE6 /* DiskImageStoreTests.swift */; };
 		C8611CB01F71AEBA00C3DE7D /* NoImageModeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8611CA11F71AEB900C3DE7D /* NoImageModeTests.swift */; };
@@ -980,6 +998,27 @@
 			remoteGlobalIDString = F84B21BD1A090F8100AAB793;
 			remoteInfo = Client;
 		};
+		C721BF2C2280EA9D004D7E5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F84B21B61A090F8100AAB793 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7BC4386221E83A000571211;
+			remoteInfo = "WatchStats Extension";
+		};
+		C7BC43B0221E888500571211 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F84B21B61A090F8100AAB793 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5DE7688320B3456C00FF5533;
+			remoteInfo = BraveShared;
+		};
+		C7BC43CA221E8E4200571211 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F84B21B61A090F8100AAB793 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 288A2D851AB8B3260023ABC3;
+			remoteInfo = Shared;
+		};
 		D30EBB631C75503800105AE9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D30EBB5A1C75503800105AE9 /* KIF.xcodeproj */;
@@ -1070,6 +1109,28 @@
 			files = (
 			);
 			name = "Copy Files";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C721BF2E2280EA9D004D7E5F /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				C721BF2B2280EA9D004D7E5F /* WatchStatsExt.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7BC43A6221E83A100571211 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				C7BC439A221E83A100571211 /* WatchStats.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		E6B09CD31C74EEDB00C63FA1 /* Copy Frameworks */ = {
@@ -1896,6 +1957,27 @@
 		C6B81B89212D84BD00996084 /* ImageCacheType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCacheType.swift; sourceTree = "<group>"; };
 		C6B81B8B212D989200996084 /* ImageCacheOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCacheOptions.swift; sourceTree = "<group>"; };
 		C6D267512136800100465DFA /* PrivateBrowsingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivateBrowsingManager.swift; sourceTree = "<group>"; };
+		C7155D58227EA62B001929F3 /* WatchKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchKit.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS5.2.sdk/System/Library/Frameworks/WatchKit.framework; sourceTree = DEVELOPER_DIR; };
+		C7155D5A227EA640001929F3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS5.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		C7155D5C227EA64C001929F3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS5.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		C7155D5E227EA656001929F3 /* WatchConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchConnectivity.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS5.2.sdk/System/Library/Frameworks/WatchConnectivity.framework; sourceTree = DEVELOPER_DIR; };
+		C7155D60227EA665001929F3 /* ClockKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ClockKit.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS5.2.sdk/System/Library/Frameworks/ClockKit.framework; sourceTree = DEVELOPER_DIR; };
+		C7155D6B227EA7C8001929F3 /* WatchStatsExt.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WatchStatsExt.entitlements; sourceTree = "<group>"; };
+		C736017B227E6B8200095C88 /* WatchStats.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WatchStats.entitlements; sourceTree = "<group>"; };
+		C736017C227E6EAB00095C88 /* BraveShareTo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BraveShareTo.entitlements; sourceTree = "<group>"; };
+		C7BC437B221E839E00571211 /* WatchStats.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchStats.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7BC437E221E839F00571211 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		C7BC4380221E83A000571211 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C7BC4382221E83A000571211 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7BC4387221E83A000571211 /* WatchStatsExt.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = WatchStatsExt.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7BC438C221E83A000571211 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		C7BC438E221E83A000571211 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		C7BC4390221E83A000571211 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		C7BC4392221E83A000571211 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		C7BC4394221E83A100571211 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C7BC4396221E83A100571211 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7BC4397221E83A100571211 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		C7BC43B4221E8AAB00571211 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS5.1.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		C817B34C1FC609500086018E /* UIScrollViewSwizzled.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIScrollViewSwizzled.swift; sourceTree = "<group>"; };
 		C8611CA11F71AEB900C3DE7D /* NoImageModeTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoImageModeTests.swift; sourceTree = "<group>"; };
 		C8EB60C31F1FB12500F9B5B3 /* navigationDelegate.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = navigationDelegate.html; sourceTree = "<group>"; };
@@ -2306,6 +2388,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C7BC4384221E83A000571211 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7155D61227EA665001929F3 /* ClockKit.framework in Frameworks */,
+				C7155D5F227EA656001929F3 /* WatchConnectivity.framework in Frameworks */,
+				C7155D5D227EA64C001929F3 /* Foundation.framework in Frameworks */,
+				C7155D5B227EA641001929F3 /* UIKit.framework in Frameworks */,
+				C7155D59227EA62B001929F3 /* WatchKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7BC43AD221E885300571211 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D39FA15C1A83E0EC00EE869C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -2596,6 +2697,7 @@
 		27F443962135E11200296C58 /* BraveShareTo */ = {
 			isa = PBXGroup;
 			children = (
+				C736017C227E6EAB00095C88 /* BraveShareTo.entitlements */,
 				27F443F22138843400296C58 /* BraveShareToInfoPlist.strings */,
 				27F443AC2135E25300296C58 /* ShareToBraveViewController.swift */,
 				27F4439C2135E11200296C58 /* BraveShareToInfo.plist */,
@@ -3348,6 +3450,12 @@
 		7B604FC11C496005006EEEC3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C7155D60227EA665001929F3 /* ClockKit.framework */,
+				C7155D5E227EA656001929F3 /* WatchConnectivity.framework */,
+				C7155D5C227EA64C001929F3 /* Foundation.framework */,
+				C7155D5A227EA640001929F3 /* UIKit.framework */,
+				C7155D58227EA62B001929F3 /* WatchKit.framework */,
+				C7BC43B4221E8AAB00571211 /* UIKit.framework */,
 				A1F66A7F20DD87CA00303328 /* Static.framework */,
 				A1AD4BD520BF476E007A6EA1 /* FastImageCache.framework */,
 				A1AD4BD020BF3F4D007A6EA1 /* Eureka.framework */,
@@ -3439,6 +3547,32 @@
 				C6D267512136800100465DFA /* PrivateBrowsingManager.swift */,
 			);
 			path = PrivacyProtection;
+			sourceTree = "<group>";
+		};
+		C7BC437C221E839F00571211 /* WatchStats */ = {
+			isa = PBXGroup;
+			children = (
+				C736017B227E6B8200095C88 /* WatchStats.entitlements */,
+				C7BC437D221E839F00571211 /* Interface.storyboard */,
+				C7BC4380221E83A000571211 /* Assets.xcassets */,
+				C7BC4382221E83A000571211 /* Info.plist */,
+			);
+			path = WatchStats;
+			sourceTree = "<group>";
+		};
+		C7BC438B221E83A000571211 /* WatchStats Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C7155D6B227EA7C8001929F3 /* WatchStatsExt.entitlements */,
+				C7BC438C221E83A000571211 /* InterfaceController.swift */,
+				C7BC438E221E83A000571211 /* ExtensionDelegate.swift */,
+				C7BC4390221E83A000571211 /* NotificationController.swift */,
+				C7BC4392221E83A000571211 /* ComplicationController.swift */,
+				C7BC4394221E83A100571211 /* Assets.xcassets */,
+				C7BC4396221E83A100571211 /* Info.plist */,
+				C7BC4397221E83A100571211 /* PushNotificationPayload.apns */,
+			);
+			path = "WatchStats Extension";
 			sourceTree = "<group>";
 		};
 		C8F457A61F1FD75A000CB895 /* BrowserViewController */ = {
@@ -3975,6 +4109,8 @@
 				5D1DC52120AC9AFB00905E5A /* DataTests */,
 				5DE7688520B3456D00FF5533 /* BraveShared */,
 				27F443962135E11200296C58 /* BraveShareTo */,
+				C7BC437C221E839F00571211 /* WatchStats */,
+				C7BC438B221E83A000571211 /* WatchStats Extension */,
 				7B604FC11C496005006EEEC3 /* Frameworks */,
 				F84B21BF1A090F8100AAB793 /* Products */,
 				D34DC84C1A16C40C00D49B7B /* Providers */,
@@ -4016,6 +4152,8 @@
 				5DE7688C20B3456E00FF5533 /* BraveSharedTests.xctest */,
 				0A6231E32121F761007B429B /* UnitTests.xctest */,
 				27F443952135E11200296C58 /* BraveShareTo.appex */,
+				C7BC437B221E839E00571211 /* WatchStats.app */,
+				C7BC4387221E83A000571211 /* WatchStatsExt.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -4322,6 +4460,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C7BC43B2221E894600571211 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
@@ -4566,6 +4711,44 @@
 			productReference = 7BEB645A1C7345990092C02E /* MarketingUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		C7BC437A221E839E00571211 /* WatchStats */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7CA753B227E55D10029AA98 /* Build configuration list for PBXNativeTarget "WatchStats" */;
+			buildPhases = (
+				C7BC4379221E839E00571211 /* Resources */,
+				C7BC43AD221E885300571211 /* Frameworks */,
+				C721BF2E2280EA9D004D7E5F /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C721BF2D2280EA9D004D7E5F /* PBXTargetDependency */,
+			);
+			name = WatchStats;
+			productName = WatchStats;
+			productReference = C7BC437B221E839E00571211 /* WatchStats.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		C7BC4386221E83A000571211 /* WatchStats Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7CA753C227E55D10029AA98 /* Build configuration list for PBXNativeTarget "WatchStats Extension" */;
+			buildPhases = (
+				C7BC43B2221E894600571211 /* Headers */,
+				C7BC4383221E83A000571211 /* Sources */,
+				C7BC4384221E83A000571211 /* Frameworks */,
+				C7BC4385221E83A000571211 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C7BC43CB221E8E4200571211 /* PBXTargetDependency */,
+				C7BC43B1221E888500571211 /* PBXTargetDependency */,
+			);
+			name = "WatchStats Extension";
+			productName = "WatchStats Extension";
+			productReference = C7BC4387221E83A000571211 /* WatchStatsExt.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
 		D39FA15E1A83E0EC00EE869C /* UITests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D39FA1671A83E0EC00EE869C /* Build configuration list for PBXNativeTarget "UITests" */;
@@ -4619,6 +4802,7 @@
 				E6639F191BF11E3A002D0853 /* Conditionally Add Settings Bundle */,
 				E6B09CD31C74EEDB00C63FA1 /* Copy Frameworks */,
 				0AF8E5332100E1A400DBB280 /* ShellScript */,
+				C7BC43A6221E83A100571211 /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
@@ -4818,6 +5002,8 @@
 				5D1DC51A20AC9AFA00905E5A /* DataTests */,
 				5DE7688B20B3456E00FF5533 /* BraveSharedTests */,
 				0A6231E22121F761007B429B /* UnitTests */,
+				C7BC437A221E839E00571211 /* WatchStats */,
+				C7BC4386221E83A000571211 /* WatchStats Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -4986,6 +5172,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C7BC4379221E839E00571211 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7BC4381221E83A000571211 /* Assets.xcassets in Resources */,
+				C7BC437F221E839F00571211 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7BC4385221E83A000571211 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7BC4395221E83A100571211 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D39FA15D1A83E0EC00EE869C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -5046,6 +5249,7 @@
 				4422D56E21BFFB7F00BF1855 /* make_perl_groups.pl in Resources */,
 				E4B7B7621A793CF20022C5E0 /* CharisSILBI.ttf in Resources */,
 				27658271217130D900754B2F /* GlobalSign_r1.cer in Resources */,
+				C7BC43A8221E850700571211 /* WatchStatsExt.appex in Resources */,
 				39F4C0FA2045D87400746155 /* FocusHelper.js in Resources */,
 				E4B7B7861A793CF20022C5E0 /* FiraSans-UltraLight.ttf in Resources */,
 				E4B7B77D1A793CF20022C5E0 /* FiraSans-Regular.ttf in Resources */,
@@ -5473,6 +5677,20 @@
 			files = (
 				7BEB64511C7345990092C02E /* MarketingUITests.swift in Sources */,
 				7BEB64521C7345990092C02E /* SnapshotHelper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7BC4383221E83A000571211 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C72C2189221EB0BE00AF9F9F /* Strings.swift in Sources */,
+				C7BC4391221E83A000571211 /* NotificationController.swift in Sources */,
+				C72C2183221EAE1000AF9F9F /* StringExtensions.swift in Sources */,
+				C7BC4393221E83A000571211 /* ComplicationController.swift in Sources */,
+				C7BC438F221E83A000571211 /* ExtensionDelegate.swift in Sources */,
+				C7BC438D221E83A000571211 /* InterfaceController.swift in Sources */,
+				C72C218C221EB26400AF9F9F /* BundleExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -5981,6 +6199,21 @@
 			target = F84B21BD1A090F8100AAB793 /* Client */;
 			targetProxy = 7BEB645C1C7346100092C02E /* PBXContainerItemProxy */;
 		};
+		C721BF2D2280EA9D004D7E5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C7BC4386221E83A000571211 /* WatchStats Extension */;
+			targetProxy = C721BF2C2280EA9D004D7E5F /* PBXContainerItemProxy */;
+		};
+		C7BC43B1221E888500571211 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5DE7688320B3456C00FF5533 /* BraveShared */;
+			targetProxy = C7BC43B0221E888500571211 /* PBXContainerItemProxy */;
+		};
+		C7BC43CB221E8E4200571211 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 288A2D851AB8B3260023ABC3 /* Shared */;
+			targetProxy = C7BC43CA221E8E4200571211 /* PBXContainerItemProxy */;
+		};
 		D39FA1661A83E0EC00EE869C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = F84B21BD1A090F8100AAB793 /* Client */;
@@ -6292,6 +6525,14 @@
 				59B691F221B6966C00E9388E /* fr */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C7BC437D221E839F00571211 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7BC437E221E839F00571211 /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -6814,7 +7055,7 @@
 				INFOPLIST_FILE = "Shared/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "$(FRAMEWORK_BASE_BUNDLE_ID).$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(inherited).$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "$SRCROOT/Shared/Shared-Bridging-Header.h";
@@ -6839,7 +7080,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_CFLAGS = "-DSQLITE_HAS_CODEC";
-				PRODUCT_BUNDLE_IDENTIFIER = "$(FRAMEWORK_BASE_BUNDLE_ID).$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(inherited).$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "$SRCROOT/Storage/Storage-Bridging-Header.h";
@@ -7216,7 +7457,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "$(FRAMEWORK_BASE_BUNDLE_ID).$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(inherited).$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -7284,7 +7525,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = "$(FRAMEWORK_BASE_BUNDLE_ID).$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(inherited).$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -7352,7 +7593,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = "$(FRAMEWORK_BASE_BUNDLE_ID).$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(inherited).$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -7420,7 +7661,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = "$(FRAMEWORK_BASE_BUNDLE_ID).$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(inherited).$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -7745,7 +7986,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "$(FRAMEWORK_BASE_BUNDLE_ID).$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(inherited).$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -7812,7 +8053,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = "$(FRAMEWORK_BASE_BUNDLE_ID).$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(inherited).$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -7879,7 +8120,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = "$(FRAMEWORK_BASE_BUNDLE_ID).$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(inherited).$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -7946,7 +8187,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = "$(FRAMEWORK_BASE_BUNDLE_ID).$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(inherited).$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -8210,26 +8451,172 @@
 			};
 			name = FirefoxBeta;
 		};
-		D39FA1681A83E0EC00EE869C /* Fennec */ = {
+		C7CA752B227E55D10029AA98 /* Fennec */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = UITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.allizom.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/UITests/UITests-Bridging-Header.h";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
-				SWIFT_VERSION = 4.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Client.app/Client";
+				DEVELOPMENT_TEAM = LTS82SDU88;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(FRAMEWORK_BASE_BUNDLE_ID).$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = UITests;
 			};
 			name = Fennec;
+		};
+		C7CA752C227E55D10029AA98 /* Fennec */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LTS82SDU88;
+				IBSC_MODULE = WatchStatsExt;
+				INFOPLIST_FILE = "$(SRCROOT)/WatchStats/Info.plist";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_SWIFT_FLAGS_BASE = "-DMOZ_TARGET_FENNEC";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(inherited).$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = WatchStats;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = watchos;
+				SUPPORTED_PLATFORMS = "watchsimulator watchos";
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.2;
+			};
+			name = Fennec;
+		};
+		C7CA752D227E55D10029AA98 /* Fennec_Enterprise */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LTS82SDU88;
+				IBSC_MODULE = WatchStatsExt;
+				INFOPLIST_FILE = "$(SRCROOT)/WatchStats/Info.plist";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_SWIFT_FLAGS_BASE = "-DMOZ_TARGET_FENNEC";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(inherited).$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = WatchStats;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = watchos;
+				SUPPORTED_PLATFORMS = "watchsimulator watchos";
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.2;
+			};
+			name = Fennec_Enterprise;
+		};
+		C7CA752E227E55D10029AA98 /* Firefox */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LTS82SDU88;
+				IBSC_MODULE = WatchStatsExt;
+				INFOPLIST_FILE = "$(SRCROOT)/WatchStats/Info.plist";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_SWIFT_FLAGS_BASE = "-DMOZ_TARGET_FENNEC";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(inherited).$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = WatchStats;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = watchos;
+				SUPPORTED_PLATFORMS = "watchsimulator watchos";
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.2;
+			};
+			name = Firefox;
+		};
+		C7CA752F227E55D10029AA98 /* FirefoxBeta */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LTS82SDU88;
+				IBSC_MODULE = WatchStatsExt;
+				INFOPLIST_FILE = "$(SRCROOT)/WatchStats/Info.plist";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_SWIFT_FLAGS_BASE = "-DMOZ_TARGET_FENNEC";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(inherited).$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = WatchStats;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = watchos;
+				SUPPORTED_PLATFORMS = "watchsimulator watchos";
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.2;
+			};
+			name = FirefoxBeta;
+		};
+		C7CA7530227E55D10029AA98 /* Fennec */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = LTS82SDU88;
+				INFOPLIST_FILE = "$(SRCROOT)/WatchStats Extension/Info.plist";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_SWIFT_FLAGS_BASE = "-DMOZ_TARGET_FENNEC";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(inherited).WatchStats.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = WatchStatsExt;
+				SDKROOT = watchos;
+				SUPPORTED_PLATFORMS = "watchsimulator watchos";
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.2;
+			};
+			name = Fennec;
+		};
+		C7CA7531227E55D10029AA98 /* Fennec_Enterprise */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = LTS82SDU88;
+				INFOPLIST_FILE = "$(SRCROOT)/WatchStats Extension/Info.plist";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_SWIFT_FLAGS_BASE = "-DMOZ_TARGET_FENNEC";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(inherited).WatchStats.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = WatchStatsExt;
+				SDKROOT = watchos;
+				SUPPORTED_PLATFORMS = "watchsimulator watchos";
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.2;
+			};
+			name = Fennec_Enterprise;
+		};
+		C7CA7532227E55D10029AA98 /* Firefox */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = LTS82SDU88;
+				INFOPLIST_FILE = "$(SRCROOT)/WatchStats Extension/Info.plist";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_SWIFT_FLAGS_BASE = "-DMOZ_TARGET_FENNEC";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(inherited).WatchStats.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = WatchStatsExt;
+				SDKROOT = watchos;
+				SUPPORTED_PLATFORMS = "watchsimulator watchos";
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.2;
+			};
+			name = Firefox;
+		};
+		C7CA7533227E55D10029AA98 /* FirefoxBeta */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = LTS82SDU88;
+				INFOPLIST_FILE = "$(SRCROOT)/WatchStats Extension/Info.plist";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_SWIFT_FLAGS_BASE = "-DMOZ_TARGET_FENNEC";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(inherited).WatchStats.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = WatchStatsExt;
+				SDKROOT = watchos;
+				SUPPORTED_PLATFORMS = "watchsimulator watchos";
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.2;
+			};
+			name = FirefoxBeta;
 		};
 		E448FC9D1AEE7A6000869B6C /* Firefox */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E60961891B62B8C800DD640F /* Firefox.xcconfig */;
 			buildSettings = {
+				ADDITIONAL_SDKS = "";
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
@@ -8277,7 +8664,7 @@
 					"$(SRCROOT)/Client/WebFilters/ShieldStats/Httpse/ThirdParty/leveldb/**",
 					"$(SRCROOT)/Client/WebFilters/ShieldStats/Httpse/ThirdParty/re2",
 				);
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(BUILD_DIR)/Release$(EFFECTIVE_PLATFORM_NAME)";
 				MTL_ENABLE_DEBUG_INFO = NO;
@@ -8290,6 +8677,7 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "";
 				SWIFT_INCLUDE_PATHS = "$(PROJECT_DIR)/Storage/modules";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -8376,7 +8764,7 @@
 				INFOPLIST_FILE = "Shared/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "$(FRAMEWORK_BASE_BUNDLE_ID).$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(inherited).$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "$SRCROOT/Shared/Shared-Bridging-Header.h";
@@ -8400,7 +8788,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_CFLAGS = "-DSQLITE_HAS_CODEC";
-				PRODUCT_BUNDLE_IDENTIFIER = "$(FRAMEWORK_BASE_BUNDLE_ID).$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(inherited).$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "$SRCROOT/Storage/Storage-Bridging-Header.h";
@@ -8667,7 +9055,7 @@
 					"$(SRCROOT)/Client/WebFilters/ShieldStats/Httpse/ThirdParty/leveldb/**",
 					"$(SRCROOT)/Client/WebFilters/ShieldStats/Httpse/ThirdParty/re2",
 				);
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(BUILD_DIR)/Release$(EFFECTIVE_PLATFORM_NAME)";
 				MTL_ENABLE_DEBUG_INFO = YES;
@@ -8681,6 +9069,7 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "";
 				SWIFT_INCLUDE_PATHS = "$(PROJECT_DIR)/Storage/modules";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -8754,7 +9143,7 @@
 				INFOPLIST_FILE = "Shared/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "$(FRAMEWORK_BASE_BUNDLE_ID).$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(inherited).$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "$SRCROOT/Shared/Shared-Bridging-Header.h";
@@ -8778,7 +9167,7 @@
 				INFOPLIST_FILE = Storage/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "$(FRAMEWORK_BASE_BUNDLE_ID).$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(inherited).$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "$SRCROOT/Storage/Storage-Bridging-Header.h";
@@ -9060,7 +9449,7 @@
 					"$(SRCROOT)/Client/WebFilters/ShieldStats/Httpse/ThirdParty/leveldb/**",
 					"$(SRCROOT)/Client/WebFilters/ShieldStats/Httpse/ThirdParty/re2",
 				);
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(BUILD_DIR)/Release$(EFFECTIVE_PLATFORM_NAME)";
 				MTL_ENABLE_DEBUG_INFO = NO;
@@ -9073,6 +9462,7 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "";
 				SWIFT_INCLUDE_PATHS = "$(PROJECT_DIR)/Storage/modules";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -9158,7 +9548,7 @@
 				INFOPLIST_FILE = "Shared/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "$(FRAMEWORK_BASE_BUNDLE_ID).$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(inherited).$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "$SRCROOT/Shared/Shared-Bridging-Header.h";
@@ -9182,7 +9572,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_CFLAGS = "-DSQLITE_HAS_CODEC";
-				PRODUCT_BUNDLE_IDENTIFIER = "$(FRAMEWORK_BASE_BUNDLE_ID).$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(inherited).$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "$SRCROOT/Storage/Storage-Bridging-Header.h";
@@ -9276,7 +9666,7 @@
 					"$(SRCROOT)/Client/WebFilters/ShieldStats/Httpse/ThirdParty/leveldb/**",
 					"$(SRCROOT)/Client/WebFilters/ShieldStats/Httpse/ThirdParty/re2",
 				);
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(BUILD_DIR)/Release$(EFFECTIVE_PLATFORM_NAME)";
 				MTL_ENABLE_DEBUG_INFO = YES;
@@ -9290,6 +9680,7 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "";
 				SWIFT_INCLUDE_PATHS = "$(PROJECT_DIR)/Storage/modules";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -9320,6 +9711,7 @@
 					"$(SRCROOT)/node_modules/hashset-cpp",
 				);
 				INFOPLIST_FILE = Client/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"-ObjC",
@@ -9493,13 +9885,35 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Fennec;
 		};
+		C7CA753B227E55D10029AA98 /* Build configuration list for PBXNativeTarget "WatchStats" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7CA752C227E55D10029AA98 /* Fennec */,
+				C7CA752D227E55D10029AA98 /* Fennec_Enterprise */,
+				C7CA752E227E55D10029AA98 /* Firefox */,
+				C7CA752F227E55D10029AA98 /* FirefoxBeta */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Fennec;
+		};
+		C7CA753C227E55D10029AA98 /* Build configuration list for PBXNativeTarget "WatchStats Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7CA7530227E55D10029AA98 /* Fennec */,
+				C7CA7531227E55D10029AA98 /* Fennec_Enterprise */,
+				C7CA7532227E55D10029AA98 /* Firefox */,
+				C7CA7533227E55D10029AA98 /* FirefoxBeta */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Fennec;
+		};
 		D39FA1671A83E0EC00EE869C /* Build configuration list for PBXNativeTarget "UITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D39FA1681A83E0EC00EE869C /* Fennec */,
 				E6DCC2111DCBB6F100CEC4B7 /* Fennec_Enterprise */,
 				E448FCA21AEE7A6000869B6C /* Firefox */,
 				E6FCC42F1C40562400DF6113 /* FirefoxBeta */,
+				C7CA752B227E55D10029AA98 /* Fennec */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Fennec;

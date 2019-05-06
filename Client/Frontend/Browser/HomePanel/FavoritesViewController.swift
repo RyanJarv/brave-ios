@@ -9,6 +9,7 @@ import XCGLogger
 import Storage
 import Deferred
 import Data
+import WatchConnectivity
 
 private let log = Logger.browserLogger
 
@@ -17,7 +18,35 @@ protocol TopSitesDelegate: AnyObject {
     func didTapDuckDuckGoCallout()
 }
 
-class FavoritesViewController: UIViewController, Themeable {
+class FavoritesViewController: UIViewController, WCSessionDelegate, Themeable {
+    
+    func sessionDidBecomeInactive(_ session: WCSession) {
+        print("%@", "sessionDidBecomeInactive: \(session)")
+    }
+    
+    func sessionDidDeactivate(_ session: WCSession) {
+        print("%@", "sessionDidDeactivate: \(session)")
+    }
+    
+    func sessionWatchStateDidChange(_ session: WCSession) {
+        print("%@", "sessionWatchStateDidChange: \(session)")
+    }
+    
+    func session(_ session: WCSession, activationDidCompleteWith activationState: WCSessionActivationState, error: Error?) {
+        NSLog("%@", "activationDidCompleteWith activationState:\(activationState) error:\(String(describing: error))")        
+        let message: [String: [String: String]] = ["message": [
+            "ads_trackers": braveShieldStatsView.adsStatView.stat,
+            "https": braveShieldStatsView.httpsStatView.stat,
+            "time": braveShieldStatsView.timeSaved,
+            ]]
+        
+        do {
+            try session.updateApplicationContext(message)
+        } catch {
+            print("Something went wrong")
+        }
+    }
+    
     private struct UI {
         static let statsHeight: CGFloat = 110.0
         static let statsBottomMargin: CGFloat = 5
@@ -104,6 +133,10 @@ class FavoritesViewController: UIViewController, Themeable {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let session = WCSession.default
+        session.delegate = self
+        session.activate()
         
         view.backgroundColor = PrivateBrowsingManager.shared.isPrivateBrowsing ? UX.HomePanel.BackgroundColorPBM : UX.HomePanel.BackgroundColor
         
